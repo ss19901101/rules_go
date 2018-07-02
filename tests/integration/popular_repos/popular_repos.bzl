@@ -41,25 +41,25 @@ def popular_repos():
   _maybe(
     go_repository,
     name="org_golang_x_sys",
-    importpath="golang.org/x/sys",
+    importpath="github.com/golang/sys",
     commit="0b25a408a50076fbbcae6b7ac0ea5fbb0b085e79",
   )
   _maybe(
     go_repository,
     name="org_golang_x_text",
-    importpath="golang.org/x/text",
+    importpath="github.com/golang/text",
     commit="a9a820217f98f7c8a207ec1e45a874e1fe12c478",
   )
   _maybe(
     go_repository,
     name="org_golang_x_tools",
-    importpath="golang.org/x/tools",
+    importpath="github.com/golang/tools",
     commit="663269851cdddc898f963782f74ea574bcd5c814",
   )
   _maybe(
     go_repository,
     name="org_golang_google_grpc",
-    importpath="google.golang.org/grpc",
+    importpath="github.com/grpc/grpc-go",
     commit="3f10311ccf076b6b7cba28273df3290d42e60982",
     build_file_proto_mode="disable",
   )
