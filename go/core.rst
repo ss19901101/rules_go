@@ -435,6 +435,7 @@ Attributes
 +----------------------------+-----------------------------+---------------------------------------+
 
 go_test
+
 ~~~~~~~
 
 This builds a set of tests that can be run with ``bazel test``.
